@@ -73,13 +73,13 @@
         &-icon {
             width: 40px;
             height: 40px;
-            background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
             border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 1.25rem;
-            box-shadow: 0 4px 20px rgb(220 38 38 / 30%);
+            box-shadow: 0 4px 20px rgb(30 58 138 / 30%);
         }
 
         &-text {
@@ -104,14 +104,14 @@
     }
 
     &__badge {
-        background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+        background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
         color: #fff;
         padding: 0.25rem 0.75rem;
         border-radius: 12px;
         font-size: 0.625rem;
         font-weight: 700;
         letter-spacing: 0.5px;
-        box-shadow: 0 2px 8px rgb(220 38 38 / 30%);
+        box-shadow: 0 2px 8px rgb(30 58 138 / 30%);
     }
 
     &__refresh-btn,
@@ -208,10 +208,10 @@
         transition: all 0.3s ease;
 
         &--active {
-            background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
-            border-color: #dc2626;
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+            border-color: #1e3a8a;
             color: #fff;
-            box-shadow: 0 2px 8px rgb(220 38 38 / 30%);
+            box-shadow: 0 2px 8px rgb(30 58 138 / 30%);
         }
 
         &:hover:not(&--active) {
@@ -369,10 +369,10 @@
 }
 
 .patel-prime::-webkit-scrollbar-thumb {
-    background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
     border-radius: 4px;
 
     &:hover {
-        background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%);
+        background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
     }
 }

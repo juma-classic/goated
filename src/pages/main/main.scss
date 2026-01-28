@@ -15,7 +15,7 @@
     --general-section-1: #1e40af; // Medium navy for sections
     --purchase-main-1: #3b82f6; // Bright blue for purchase actions
     --button-primary-hover: #60a5fa; // Light blue for hover states
-    --brand-red-coral: #ef4444; // Vibrant red for danger/alerts
+    --brand-red-coral: #1e3a8a; // Navy blue for danger/alerts (changed from red)
     --text-prominent: #fff; // White for prominent text
     --text-accent: #fbbf24; // Vibrant amber for accents
 }
@@ -1055,7 +1055,7 @@
 }
 
 .ai-badge {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
     color: #fff;
     padding: 2px 8px;
     border-radius: 12px;
@@ -1067,18 +1067,18 @@
     justify-content: center;
     min-width: 24px;
     height: 18px;
-    box-shadow: 0 2px 4px rgb(102 126 234 / 30%);
+    box-shadow: 0 2px 4px rgb(239 68 68 / 30%);
     animation: ai-glow 2s ease-in-out infinite alternate;
 }
 
 .analyzer-badge {
-    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
     color: #fff;
     font-size: 0.65rem;
     padding: 0.2rem 0.5rem;
     border-radius: 8px;
     font-weight: 700;
-    box-shadow: 0 2px 6px rgb(255 107 53 / 30%);
+    box-shadow: 0 2px 6px rgb(239 68 68 / 30%);
 }
 
 .safety-badge {
@@ -1107,13 +1107,13 @@
 
 @keyframes ai-glow {
     0% {
-        box-shadow: 0 2px 4px rgb(102 126 234 / 30%);
+        box-shadow: 0 2px 4px rgb(239 68 68 / 30%);
     }
 
     100% {
         box-shadow:
-            0 2px 8px rgb(102 126 234 / 60%),
-            0 0 16px rgb(118 75 162 / 40%);
+            0 2px 8px rgb(239 68 68 / 60%),
+            0 0 16px rgb(220 38 38 / 40%);
     }
 }
 

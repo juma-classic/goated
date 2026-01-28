@@ -50,7 +50,7 @@
             min-width: 20px;
             height: 20px;
             padding: 0 6px;
-            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+            background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
             border-radius: 10px;
             color: #fff;
             font-size: 0.7rem;
@@ -58,7 +58,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 2px 8px rgb(255 107 107 / 40%);
+            box-shadow: 0 2px 8px rgb(239 68 68 / 40%);
             animation: pulse-badge 2s infinite;
         }
 
@@ -171,12 +171,12 @@
 @keyframes pulse-badge {
     0%, 100% {
         transform: scale(1);
-        box-shadow: 0 2px 8px rgb(255 107 107 / 40%);
+        box-shadow: 0 2px 8px rgb(239 68 68 / 40%);
     }
 
     50% {
         transform: scale(1.1);
-        box-shadow: 0 4px 16px rgb(255 107 107 / 60%);
+        box-shadow: 0 4px 16px rgb(239 68 68 / 60%);
     }
 }
 

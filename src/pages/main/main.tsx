@@ -289,10 +289,10 @@ const PatelSignalsIcon = () => (
         />
 
         {/* Signal dots */}
-        <circle cx='6' cy='12' r='1.5' fill='#8b5cf6' />
-        <circle cx='10' cy='6' r='1.5' fill='#6366f1' />
-        <circle cx='14' cy='18' r='1.5' fill='#8b5cf6' />
-        <circle cx='18' cy='10' r='1.5' fill='#6366f1' />
+        <circle cx='6' cy='12' r='1.5' fill='#1e3a8a' />
+        <circle cx='10' cy='6' r='1.5' fill='#1e40af' />
+        <circle cx='14' cy='18' r='1.5' fill='#1e3a8a' />
+        <circle cx='18' cy='10' r='1.5' fill='#1e40af' />
 
         {/* Target crosshair */}
         <circle cx='12' cy='12' r='8' stroke='currentColor' strokeWidth='1' fill='none' opacity='0.3' />
@@ -305,7 +305,7 @@ const PatelSignalsIcon = () => (
         />
 
         {/* Center indicator */}
-        <circle cx='12' cy='12' r='2' fill='#8b5cf6' opacity='0.8' />
+        <circle cx='12' cy='12' r='2' fill='#1e3a8a' opacity='0.8' />
         <circle cx='12' cy='12' r='1' fill='#fff' />
     </svg>
 );
@@ -313,20 +313,20 @@ const PatelSignalsIcon = () => (
 const PatelSignalCenterIcon = () => (
     <svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
         {/* Central hub */}
-        <circle cx='12' cy='12' r='4' stroke='#8b5cf6' strokeWidth='2' fill='none' />
-        <circle cx='12' cy='12' r='4' fill='#8b5cf6' opacity='0.1' />
+        <circle cx='12' cy='12' r='4' stroke='#1e3a8a' strokeWidth='2' fill='none' />
+        <circle cx='12' cy='12' r='4' fill='#1e3a8a' opacity='0.1' />
 
         {/* Signal distribution lines */}
         <path
             d='M12 2V8M12 16V22M2 12H8M16 12H22'
-            stroke='#8b5cf6'
+            stroke='#1e3a8a'
             strokeWidth='2'
             strokeLinecap='round'
             opacity='0.6'
         />
         <path
             d='M5.5 5.5L9.5 9.5M14.5 14.5L18.5 18.5M18.5 5.5L14.5 9.5M9.5 14.5L5.5 18.5'
-            stroke='#8b5cf6'
+            stroke='#1e3a8a'
             strokeWidth='1.5'
             strokeLinecap='round'
             opacity='0.4'
@@ -345,7 +345,7 @@ const PatelSignalCenterIcon = () => (
         <circle cx='6' cy='18' r='1' fill='#ffd700' />
 
         {/* Center core */}
-        <circle cx='12' cy='12' r='2' fill='#8b5cf6' />
+        <circle cx='12' cy='12' r='2' fill='#1e3a8a' />
         <circle cx='12' cy='12' r='1' fill='#fff' />
 
         {/* Statistical indicators */}
@@ -2026,7 +2026,7 @@ const AppWrapper = observer(() => {
                                     <span
                                         className='tab-badge'
                                         style={{
-                                            background: 'linear-gradient(135deg, #dc2626 0%, #b91c1c 100%)',
+                                            background: 'linear-gradient(135deg, #ef4444 0%, #dc2626 100%)',
                                             color: '#fff',
                                             padding: '2px 8px',
                                             borderRadius: '12px',
@@ -2056,7 +2056,7 @@ const AppWrapper = observer(() => {
                                     <span
                                         className='tab-badge'
                                         style={{
-                                            background: 'linear-gradient(135deg, #8b5cf6 0%, #a855f7 100%)',
+                                            background: 'linear-gradient(135deg, #ef4444 0%, #dc2626 100%)',
                                             color: '#fff',
                                             padding: '2px 8px',
                                             borderRadius: '12px',
@@ -2918,7 +2918,7 @@ const AppWrapper = observer(() => {
                                     <span
                                         className='tab-badge'
                                         style={{
-                                            background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                                            background: 'linear-gradient(135deg, #ef4444 0%, #dc2626 100%)',
                                             color: '#fff',
                                             padding: '2px 8px',
                                             borderRadius: '12px',
