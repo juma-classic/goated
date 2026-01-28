@@ -8,7 +8,7 @@
 
     &__container {
         height: var(--bot-content-height) !important;
-        top: 12rem !important; /* Increased from 10.4rem to 12rem to avoid tab overlap */
+        top: calc(12rem - 15px) !important; /* Moved 15px up from 12rem for better positioning */
         width: 36.6rem !important;
         right: 0;
 
