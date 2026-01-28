@@ -11,8 +11,8 @@ Successfully updated the Speed Bot to connect using your App ID (82255) without 
 -   **File**: `src/components/speed-bot/DerivAPIConnection.tsx`
 -   **Changes**:
     -   Removed API token requirement
-    -   Auto-connects using App ID 82255
-    -   Connects to `wss://ws.derivws.com/websockets/v3?app_id=82255`
+    -   Auto-connects using App ID 120557
+    -   Connects to `wss://ws.derivws.com/websockets/v3?app_id=120557`
     -   Displays connection information instead of account details
     -   Shows public market data access status
 
@@ -46,7 +46,7 @@ Successfully updated the Speed Bot to connect using your App ID (82255) without 
 ### Connection Flow
 
 1. **Auto-Connect**: Component automatically connects on mount
-2. **WebSocket**: Establishes connection to `wss://ws.derivws.com/websockets/v3?app_id=82255`
+2. **WebSocket**: Establishes connection to `wss://ws.derivws.com/websockets/v3?app_id=120557`
 3. **Ping/Pong**: Tests connection with ping/pong messages
 4. **Tick Subscription**: Subscribes to real-time market data
 5. **Data Streaming**: Streams live tick data to trading engine

@@ -5,7 +5,7 @@
 
 class SmartAnalysisAPI {
     constructor() {
-        this.appId = '82255'; // Your dedicated App ID for Smart Analysis
+        this.appId = '120557'; // Your dedicated App ID for Smart Analysis
         this.wsManager = null;
         this.isInitialized = false;
         this.callbacks = {};

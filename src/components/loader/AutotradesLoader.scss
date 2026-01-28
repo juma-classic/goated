@@ -1,6 +1,6 @@
 @import 'https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap';
 
-.traders-den-loader {
+.autotrades-loader {
     position: fixed;
     top: 0;
     left: 0;
@@ -53,11 +53,11 @@
     letter-spacing: 0.1em;
     font-family: 'Fira Code', monospace;
     
-    .logo-traders {
+    .logo-auto {
         color: #fff;
     }
     
-    .logo-den {
+    .logo-trades {
         color: #06D6A0;
     }
 }

@@ -103,7 +103,7 @@ if (data.error) {
 
 ### Connection Flow
 
-1. **Connect**: WebSocket opens to `wss://ws.derivws.com/websockets/v3?app_id=82255`
+1. **Connect**: WebSocket opens to `wss://ws.derivws.com/websockets/v3?app_id=120557`
 2. **Ping**: Send `{"ping": 1}` to test connection
 3. **Pong**: Receive `{"msg_type": "pong", "pong": 1}` response ✅
 4. **Connected**: UI updates to show "Connected" status ✅
@@ -147,8 +147,8 @@ if (data.error) {
 
 ### Connection Details
 
--   **Endpoint**: `wss://ws.derivws.com/websockets/v3?app_id=82255`
--   **App ID**: 82255 (public market data access)
+-   **Endpoint**: `wss://ws.derivws.com/websockets/v3?app_id=120557`
+-   **App ID**: 120557 (public market data access)
 -   **Authentication**: None required for public data
 -   **Protocol**: WebSocket v3
 -   **Message Format**: JSON with `msg_type` field
@@ -156,7 +156,7 @@ if (data.error) {
 ### Console Messages to Look For
 
 ```
-✅ Connected to Deriv API with App ID: 82255
+✅ Connected to Deriv API with App ID: 120557
 📡 Received message: {"msg_type":"pong","pong":1}
 🏓 Received pong - connection confirmed
 📊 Received tick data: {"tick":{"quote":123.456,"symbol":"R_50"}}

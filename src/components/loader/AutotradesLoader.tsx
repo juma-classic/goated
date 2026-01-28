@@ -1,12 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react';
-import './TradersDenLoader.scss';
+import './AutotradesLoader.scss';
 
-interface TradersDenLoaderProps {
+interface AutotradesLoaderProps {
     onLoadComplete?: () => void;
     duration?: number;
 }
 
-export const TradersDenLoader: React.FC<TradersDenLoaderProps> = ({ 
+export const AutotradesLoader: React.FC<AutotradesLoaderProps> = ({ 
     onLoadComplete, 
     duration = 5000 
 }) => {
@@ -114,15 +114,15 @@ export const TradersDenLoader: React.FC<TradersDenLoaderProps> = ({
     }, [duration, onLoadComplete, statuses.length]);
 
     return (
-        <div className={`traders-den-loader ${isComplete ? 'fade-out' : ''}`}>
+        <div className={`autotrades-loader ${isComplete ? 'fade-out' : ''}`}>
             <canvas ref={canvasRef} className="digital-rain-canvas" />
             
             <div className="loading-container">
                 {/* App Logo/Name */}
                 <div className="logo-section">
                     <h1 className="logo-title">
-                        <span className="logo-traders">TRADERS</span>
-                        <span className="logo-den">DEN</span>
+                        <span className="logo-auto">AUTO</span>
+                        <span className="logo-trades">TRADES</span>
                     </h1>
                     <p className="logo-subtitle">Decoding Market Algorithms...</p>
                 </div>
@@ -149,4 +149,4 @@ export const TradersDenLoader: React.FC<TradersDenLoaderProps> = ({
     );
 };
 
-export default TradersDenLoader;
+export default AutotradesLoader;

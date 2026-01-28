@@ -1,5 +1,5 @@
 import React from 'react';
-import { TradersDenLoader } from '@/components/loader/TradersDenLoader';
+import { AutotradesLoader } from '@/components/loader/AutotradesLoader';
 import { generateDerivApiInstance } from '@/external/bot-skeleton/services/api/appId';
 import { URLUtils } from '@deriv-com/utils';
 import App from './App';
@@ -61,7 +61,7 @@ export const AuthWrapper = () => {
     }, [loginInfo, paramsToDelete]);
 
     if (!isAuthComplete) {
-        return <TradersDenLoader onLoadComplete={() => {}} duration={2000} />;
+        return <AutotradesLoader onLoadComplete={() => {}} duration={2000} />;
     }
 
     return <App />;
